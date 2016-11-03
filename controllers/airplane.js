@@ -1,5 +1,5 @@
 var express = require('express');
-var Airplane = require('../models/airplane');
+var Airplane = require('../models/airplane.js');
 var router = express.Router();
 
 router.route('/')
